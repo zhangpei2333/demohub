@@ -48,7 +48,7 @@ Python的语法
 1、字典的值没有顺序
 2、字典的结构必须是兼职对的结构  key:Value 
 """
-a5 = {
+""" a5 = {
     "name1":"张三",
     "name2":"李四"
 }
@@ -71,4 +71,16 @@ print(b7)
 print(a5)
 # 更新
 a5.update(name1="张一")
-print(a5)
+print(a5) """
+
+
+
+""" 练习:
+获取用户输入的个人信息，并且存储到字典中。
+个人信息包括: name,age,sex """
+
+a = input("请输入姓名：")
+b = input("请输入年龄：")
+c = input("请输入性别：")
+user = {"name":a,"age":b,"sex":c}
+print(user)
