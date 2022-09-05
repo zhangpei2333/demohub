@@ -79,8 +79,15 @@ print(a5) """
 获取用户输入的个人信息，并且存储到字典中。
 个人信息包括: name,age,sex """
 
-a = input("请输入姓名：")
+""" a = input("请输入姓名：")
 b = input("请输入年龄：")
 c = input("请输入性别：")
 user = {"name":a,"age":b,"sex":c}
-print(user)
+print(user) """
+
+""" name = input("请输入姓名：")
+age = input("请输入年龄：")
+sex = input("请输入性别：")
+userinfo = {}
+userinfo.update(name=name,age=age,sex=sex)
+print(userinfo) """

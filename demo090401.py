@@ -1,7 +1,7 @@
 """
     这是多行注释
 """
-#   这是单行注释
+""" #   这是单行注释
 
 # 1.python数据的类型
 print("hello world")    # 字符串
@@ -79,4 +79,4 @@ c = len(str(input("获取的内容1:")))
 d = len(str(input("获取的内容2:")))
 print("这是输入的内容的长度的和：",c+d)
 
-print("hello world!")
+print("hello world!") """
