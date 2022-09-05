@@ -156,15 +156,15 @@ input
 #             print(i,"倒计时:",j,"秒")
 
 # 练习2
-username = input("请输入账号:")
-password = input("请输入密码:")
-if len(username) >= 5 and len(username) <= 8 and [type(username) in ["int","str"]]:
-        if username[0] in "qwertyuiopasdfghjklzxcvbnm":
-            if len(password) >= 6 and len(password) <= 12:
-                print("注册成功!",{"账号":username,"密码":password})
-            else:
-                print("请输入符合规范的6-12位密码!")               
-        else:
-            print("账号必须为小写开头")          
-else:
-    print("请输入符合规范的5-8位账号!")
+# username = input("请输入账号:")
+# password = input("请输入密码:")
+# if len(username) >= 5 and len(username) <= 8 and [type(username) in ["int","str"]]:
+#         if username[0] in "qwertyuiopasdfghjklzxcvbnm":
+#             if len(password) >= 6 and len(password) <= 12:
+#                 print("注册成功!",{"账号":username,"密码":password})
+#             else:
+#                 print("请输入符合规范的6-12位密码!")               
+#         else:
+#             print("账号必须为小写开头")          
+# else:
+#     print("请输入符合规范的5-8位账号!")
